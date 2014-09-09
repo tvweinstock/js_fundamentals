@@ -1,31 +1,62 @@
-// Exercises: Objects
+// Exercises: Variables
 
-// EXERCISE: The Recipe Card
+// The Fortune Teller
 
-// Never forget another recipe!
+// Why pay a fortune teller when you can just program your fortune yourself?
 
-// Create an object to hold information on your favorite recipe. It should have properties for title (a string), servings (a number), and ingredients (an array of strings).
-// On separate lines (one console.log statement for each), log the recipe information so it looks like:
-// Mole
-// Serves: 2
-// Ingredients:
-// cinnamon
-// cumin
-// cocoa
+// Store the following into variables: number of children, partner's name, geographic location, job title.
+// Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 
-// EXERCISE: The Reading List
+// function tellTeller(kids, partner, city, job) {
+//   var fortune =('You will have ' + kids + ' kids with your parter named ' +  partner + ' and you will live in ' + city + ' and work as a ' + job);
+//   return fortune;
+// }
 
-// Keep track of which books you read and which books you want to read!
-
-// Create an array of objects, where each object describes a book and has properties for the title (a string), author (a string), and alreadyRead (a boolean indicating if you read it yet).
-// Iterate through the array of books. For each book, log the book title and book author like so: "The Hobbit by J.R.R. Tolkien".
-// Now use an if/else statement to change the output depending on whether you read it yet or not. If you read it, log a string like 'You already read "The Hobbit" by J.R.R. Tolkien', and if not, log a string like 'You still need to read "The Lord of the Rings" by J.R.R. Tolkien.'
-
-// EXERCISE: The Movie Database
-
-// It's like IMDB, but much much smaller!
-
-// Create an object to store the following information about your favorite movie: title (a string), duration (a number), and stars (an array of strings).
-// Create a function to print out the movie information like so: "Puff the Magic Dragon lasts for 30 minutes. Stars: Puff, Jackie, Living Sneezes."
+// document.write(tellTeller(5, 'Jose', 'San Jose', 'Barback'));
 
 
+// The Age Calculator
+
+// Forgot how old someone is? Calculate it!
+
+// Store the current year in a variable.
+// Store their birth year in a variable.
+// Calculate their 2 possible ages based on the stored values.
+// Output them to the screen like so: "They are either NN or NN", substituting the values.
+
+var currentYear = 2014
+var birthYear = 1989
+
+var age = 'If you already had your birthday you are ' + (currentYear - birthYear) + ' years old. But if your birthday is coming up you are ' + (currentYear - birthYear - 1)+'.';
+document.write(age)
+  
+
+
+// The Lifetime Supply Calculator
+
+// Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+
+// Store your current age into a variable.
+// Store a maximum age into a variable.
+// Store an estimated amount per day (as a number).
+// Calculate how many you would eat total for the rest of your life.
+// Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
+
+
+// The Geometrizer
+
+// Calculate properties of a circle, using the definitions here.
+
+// Store a radius into a variable.
+// Calculate the circumference based on the radius, and output "The circumference is NN".
+// Calculate the area based on the radius, and output "The area is NN".
+
+
+// The Temperature Converter
+
+// It's hot out! Let's make a converter based on the steps here.
+
+// Store a celsius temperature into a variable.
+// Convert it to fahrenheit and output "NN°C is NN°F".
+// Now store a fahrenheit temperature into a variable.
+// Convert it to celsius and output "NN°F is NN°C."
