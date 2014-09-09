@@ -24,11 +24,11 @@
 // Calculate their 2 possible ages based on the stored values.
 // Output them to the screen like so: "They are either NN or NN", substituting the values.
 
-var currentYear = 2014
-var birthYear = 1989
+// var currentYear = 2014
+// var birthYear = 1989
 
-var age = 'If you already had your birthday you are ' + (currentYear - birthYear) + ' years old. But if your birthday is coming up you are ' + (currentYear - birthYear - 1)+'.';
-document.write(age)
+// var age = 'If you already had your birthday you are ' + (currentYear - birthYear) + ' years old. But if your birthday is coming up you are ' + (currentYear - birthYear - 1)+'.';
+// document.write(age)
   
 
 
@@ -42,6 +42,12 @@ document.write(age)
 // Calculate how many you would eat total for the rest of your life.
 // Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
 
+// var currentAge = 25
+// var maxAge = 90
+// var estimatedAmountPerDay = 12
+
+// var message = ('You will need ' + ((maxAge - currentAge) * 365 * estimatedAmountPerDay) + ' wasabi peas to last you until the ripe old age of ' + maxAge + '.');
+// document.write(message)
 
 // The Geometrizer
 
@@ -50,6 +56,16 @@ document.write(age)
 // Store a radius into a variable.
 // Calculate the circumference based on the radius, and output "The circumference is NN".
 // Calculate the area based on the radius, and output "The area is NN".
+
+// var radius = 9
+// var circumference = 2*radius*(Math.PI)
+// var area = radius*radius*(Math.PI)
+
+// console.log('The circumference is ' + circumference);
+// console.log('The area is ' + area);
+
+
+
 
 
 // The Temperature Converter
