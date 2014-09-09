@@ -9,4 +9,7 @@
 
 
 var topColors = ['red', 'blue', 'aubergine', 'cyan', 'azure'];
-document.write('My favorite color is ' + topColors[0] + '\nMy 2nd choice is ' + topColors[1] + '\n My 3rd choice is ' + topColors[2] + '\n My final favorite is ' + topColors[3]);
+console.log('My favorite color is ' + topColors[0]);
+console.log('My 2nd choice is ' + topColors[1]);
+console.log('My 3rd choice is ' + topColors[2]);
+console.log('My final favorite is ' + topColors[3]);
