@@ -78,18 +78,18 @@
 // Bonus: Make it handle a few collective nouns like "sheep" and "geese".
 
 
-// function pluralizeThat(animal, number) {
-//   if (number > 1  && animal != 'sheep' && animal != 'geese' && animal != 'moose') {
-//     return number + ' ' + animal + 's';
-//   } else {
-//     return number + ' ' + animal;
-//   }
-// };
+function pluralizeThat(animal, number) {
+  if (number > 1  && animal != 'sheep' && animal != 'geese' && animal != 'moose') {
+    return number + ' ' + animal + 's';
+  } else {
+    return number + ' ' + animal;
+  }
+};
 
-// console.log(pluralizeThat('cat', 5));
-// console.log(pluralizeThat('dog', 5));
-// console.log(pluralizeThat('bird', 5));
-// console.log(pluralizeThat('geese', 5));
-// console.log(pluralizeThat('moose', 5));
-// console.log(pluralizeThat('sheep', 5));
-// console.log(pluralizeThat('dog', 1));
+console.log(pluralizeThat('cat', 5));
+console.log(pluralizeThat('dog', 5));
+console.log(pluralizeThat('bird', 5));
+console.log(pluralizeThat('geese', 5));
+console.log(pluralizeThat('moose', 5));
+console.log(pluralizeThat('sheep', 5));
+console.log(pluralizeThat('dog', 1));

@@ -9,7 +9,33 @@
 
 
 var topColors = ['red', 'blue', 'aubergine', 'cyan', 'azure'];
-console.log('My favorite color is ' + topColors[0]);
-console.log('My 2nd choice is ' + topColors[1]);
-console.log('My 3rd choice is ' + topColors[2]);
-console.log('My final favorite is ' + topColors[3]);
+  for (var i = 0; i < topColors.length; i++ ) {
+    console.log("My #" + (i + 1) + " choice is " + topColors[i]);
+  };
+
+  for (var i = 0; i < topColors.length; i++ ) {
+    var choiceNum = i + 1
+    var suffix
+    if (choiceNum == 1) {
+      suffix = 'st';
+    } else if (choiceNum == 2) {
+      suffix = 'nd';
+    } else if (choiceNum == 3 ){
+      suffix = 'rd';
+    } else {
+      suffix = 'th';
+    }
+    console.log('My ' + choiceNum + suffix + ' favorite color is ' + topColors[i]);
+  };
+
+
+
+
+
+
+
+// console.log('My favorite color is ' + topColors[0]);
+// console.log('My 2nd choice is ' + topColors[1]);
+// console.log('My 3rd choice is ' + topColors[2]);
+// console.log('My final favorite is ' + topColors[3]);
+
